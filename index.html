@@ -648,7 +648,7 @@ footer{padding:2.5rem 0;border-top:1px solid var(--gold-border)}
           succ.style.display = 'block';
           setTimeout(() => succ.style.display = 'none', 5000);
 
-          // 30-second cooldown to prevent rapid re-submissions
+          // 30-second cooldown to prevent rapid re-submissions.
           let secs = 30;
           btn.textContent = 'Sent (' + secs + 's)';
           btn.disabled = true;
